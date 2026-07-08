@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favoriler" />
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/ic_recent"
+            android:title="En Son İzlenenler" />
+        <item
+            android:id="@+id/nav_adult"
+            android:icon="@drawable/ic_adult"
+            android:title="Adult" />
+    </group>
+
+    <item android:title="Diğer">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="Hakkımızda" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Gizlilik Politikası" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Biz Kimiz" />
+        </menu>
+    </item>
+
+</menu>
